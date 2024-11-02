@@ -1,0 +1,25 @@
+{
+  "item.create-beverages.apple_juice": "Apple Juice",
+  "item.create-beverages.apple_juice_bucket": "Apple Juice Bucket",
+  "block.create-beverages.apple_juice_block": "Apple Juice Liquid",
+
+  "item.create-beverages.lemon_juice": "Lemon Juice",
+  "item.create-beverages.lemon_juice_bucket": "Lemon Juice Bucket",
+  "block.create-beverages.lemon_juice_block": "Lemon Juice Liquid",
+  "item.create-beverages.lemon": "Lemon",
+
+  "item.create-beverages.melon_juice": "Melon Juice",
+  "item.create-beverages.melon_juice_bucket": "Melon Juice Bucket",
+  "block.create-beverages.melon_juice_block": "Melon Juice Liquid",
+
+  "item.create-beverages.golden_melon_juice": "Golden Melon Juice",
+  "item.create-beverages.golden_melon_juice_bucket": "Golden Melon Juice Bucket",
+  "block.create-beverages.golden_melon_juice_block": "Golden Melon Juice Liquid",
+
+
+
+  "itemgroup.apple_juice": "Create: Beverages"
+
+
+
+}

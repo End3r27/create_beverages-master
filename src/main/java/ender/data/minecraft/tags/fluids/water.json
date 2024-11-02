@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values":
+  [
+    "createbeverages:still_apple_juice",
+    "createbeverages:flowing_apple_juice",
+
+    "createbeverages:still_lemon_juice",
+    "createbeverages:flowing_lemon_juice"
+  ]
+}

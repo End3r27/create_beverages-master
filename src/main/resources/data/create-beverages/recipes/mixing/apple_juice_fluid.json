@@ -1,0 +1,15 @@
+
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:apple"
+    }
+  ],
+  "results": [
+    {
+      "amount": 8123,
+      "fluid": "create-beverages:apple_juice_fluid"
+    }
+  ]
+}

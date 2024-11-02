@@ -1,0 +1,15 @@
+
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:melon_slice"
+    }
+  ],
+  "results": [
+    {
+      "amount": 8123,
+      "fluid": "create-beverages:melon_juice_fluid"
+    }
+  ]
+}

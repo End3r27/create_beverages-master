@@ -1,0 +1,15 @@
+
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create-beverages:lemon"
+    }
+  ],
+  "results": [
+    {
+      "amount": 8123,
+      "fluid": "create-beverages:lemon_juice_fluid"
+    }
+  ]
+}

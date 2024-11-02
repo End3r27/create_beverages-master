@@ -1,0 +1,15 @@
+
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:glistering_melon_slice"
+    }
+  ],
+  "results": [
+    {
+      "amount": 8123,
+      "fluid": "create-beverages:golden_melon_juice_fluid"
+    }
+  ]
+}
