@@ -21,13 +21,18 @@ public class ModItemGroups {
 
                         entries.add(ModItems.APPLE_JUICE);
                         entries.add(ModItems.LEMON_JUICE);
+                        entries.add(ModItems.LEMON);
                         entries.add(ModItems.MELON_JUICE);
+                        entries.add(ModItems.BERRY_JUICE);
+                        entries.add(ModItems.PHANTOM_JUICE);
                         entries.add(ModItems.GOLDEN_MELON_JUICE);
                         entries.add(ModFluids.APPLE_JUICE_BUCKET);
                         entries.add(ModFluids.LEMON_JUICE_BUCKET);
                         entries.add(ModFluids.MELON_JUICE_BUCKET);
                         entries.add(ModFluids.GOLDEN_MELON_JUICE_BUCKET);
-                        entries.add(ModItems.LEMON);
+                        entries.add(ModFluids.BERRY_JUICE_BUCKET);
+                        entries.add(ModFluids.PHANTOM_JUICE_BUCKET);
+
 
 
 

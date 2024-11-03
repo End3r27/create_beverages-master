@@ -36,6 +36,16 @@ public class ModFluids {
     public static Block GOLDEN_MELON_JUICE_BLOCK;
     public static Item GOLDEN_MELON_JUICE_BUCKET;
 
+    public static FlowableFluid STILL_BERRY_JUICE;
+    public static FlowableFluid FLOWING_BERRY_JUICE;
+    public static Block BERRY_JUICE_BLOCK;
+    public static Item BERRY_JUICE_BUCKET;
+
+    public static FlowableFluid STILL_PHANTOM_JUICE;
+    public static FlowableFluid FLOWING_PHANTOM_JUICE;
+    public static Block PHANTOM_JUICE_BLOCK;
+    public static Item PHANTOM_JUICE_BUCKET;
+
     public static void register() {
         STILL_APPLE_JUICE = Registry.register(Registries.FLUID,
                 new Identifier(CreateBeverages.MOD_ID, "apple_juice_fluid"), new AppleJuiceFluid.Still() {
@@ -83,5 +93,30 @@ public class ModFluids {
                 new FluidBlock(ModFluids.STILL_GOLDEN_MELON_JUICE, FabricBlockSettings.copyOf(Blocks.WATER)){ });
         GOLDEN_MELON_JUICE_BUCKET = Registry.register(Registries.ITEM, new Identifier(CreateBeverages.MOD_ID, "golden_melon_juice_bucket"),
                 new BucketItem(ModFluids.STILL_GOLDEN_MELON_JUICE, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
+
+
+
+        STILL_BERRY_JUICE = Registry.register(Registries.FLUID,
+                new Identifier(CreateBeverages.MOD_ID, "berry_juice_fluid"), new BerryJuiceFluid.Still() {
+                });
+        FLOWING_BERRY_JUICE = Registry.register(Registries.FLUID,
+                new Identifier(CreateBeverages.MOD_ID, "flowing_berry_juice"), new BerryJuiceFluid.Flowing());
+
+        BERRY_JUICE_BLOCK = Registry.register(Registries.BLOCK, new Identifier(CreateBeverages.MOD_ID, "berry_juice_block"),
+                new FluidBlock(ModFluids.STILL_MELON_JUICE, FabricBlockSettings.copyOf(Blocks.WATER)){ });
+        BERRY_JUICE_BUCKET = Registry.register(Registries.ITEM, new Identifier(CreateBeverages.MOD_ID, "berry_juice_bucket"),
+                new BucketItem(ModFluids.STILL_MELON_JUICE, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
+
+
+        STILL_PHANTOM_JUICE = Registry.register(Registries.FLUID,
+                new Identifier(CreateBeverages.MOD_ID, "phantom_juice_fluid"), new PhantomJuiceFluid.Still() {
+                });
+        FLOWING_PHANTOM_JUICE = Registry.register(Registries.FLUID,
+                new Identifier(CreateBeverages.MOD_ID, "flowing_phantom_juice"), new PhantomJuiceFluid.Flowing());
+
+        PHANTOM_JUICE_BLOCK = Registry.register(Registries.BLOCK, new Identifier(CreateBeverages.MOD_ID, "phantom_juice_block"),
+                new FluidBlock(ModFluids.STILL_PHANTOM_JUICE, FabricBlockSettings.copyOf(Blocks.WATER)){ });
+        PHANTOM_JUICE_BUCKET = Registry.register(Registries.ITEM, new Identifier(CreateBeverages.MOD_ID, "phantom_juice_bucket"),
+                new BucketItem(ModFluids.STILL_PHANTOM_JUICE, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
     }
 }

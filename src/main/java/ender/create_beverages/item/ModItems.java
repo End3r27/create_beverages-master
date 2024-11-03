@@ -18,12 +18,15 @@ public class ModItems {
 
     public static final Item APPLE_JUICE = registerItem("apple_juice", new Item(new FabricItemSettings().food(ModFoodComponents.APPLE_JUICE).maxCount(1)));
     public static final Item LEMON_JUICE = registerItem("lemon_juice", new Item(new FabricItemSettings().food(ModFoodComponents.LEMON_JUICE).maxCount(1)));
-
+    public static final Item LEMON = registerItem("lemon", new Item(new FabricItemSettings().food(ModFoodComponents.LEMON)));
     public static final Item MELON_JUICE = registerItem("melon_juice", new Item(new FabricItemSettings().food(ModFoodComponents.MELON_JUICE).maxCount(1)));
 
     public static final Item GOLDEN_MELON_JUICE = registerItem("golden_melon_juice", new Item(new FabricItemSettings().food(ModFoodComponents.STRONG_MELON_JUICE).maxCount(1)));
 
-    public static final Item LEMON = registerItem("lemon", new Item(new FabricItemSettings().food(ModFoodComponents.LEMON)));
+    public static final Item BERRY_JUICE = registerItem("berry_juice", new Item(new FabricItemSettings().food(ModFoodComponents.BERRY_JUICE).maxCount(1)));
+
+    public static final Item PHANTOM_JUICE = registerItem("phantom_juice", new Item(new FabricItemSettings().food(ModFoodComponents.PHANTOM_JUICE).maxCount(1)));
+
 
 
 

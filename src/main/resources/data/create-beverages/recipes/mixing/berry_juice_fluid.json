@@ -1,0 +1,15 @@
+
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:sweet_berries"
+    }
+  ],
+  "results": [
+    {
+      "amount": 8123,
+      "fluid": "create-beverages:berry_juice_fluid"
+    }
+  ]
+}

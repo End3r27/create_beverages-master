@@ -16,6 +16,14 @@
   "item.create-beverages.golden_melon_juice_bucket": "Golden Melon Juice Bucket",
   "block.create-beverages.golden_melon_juice_block": "Golden Melon Juice Liquid",
 
+  "item.create-beverages.berry_juice": "Berry Juice",
+  "item.create-beverages.berry_juice_bucket": "Berry Juice Bucket",
+  "block.create-beverages.berry_juice_block": "Berry Juice Liquid",
+
+  "item.create-beverages.phantom_juice": "Phantom Juice",
+  "item.create-beverages.phantom_juice_bucket": "Phantom Juice Bucket",
+  "block.create-beverages.phantom_juice_block": "Phantom Juice Liquid",
+
 
 
   "itemgroup.apple_juice": "Create: Beverages"

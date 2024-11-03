@@ -27,4 +27,11 @@ public class ModFoodComponents {
     public static final FoodComponent STRONG_MELON_JUICE = new FoodComponent.Builder().hunger(3).saturationModifier(0.25f)
             .statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 12800), 1f).alwaysEdible().build();
 
+
+    public static final FoodComponent BERRY_JUICE = new FoodComponent.Builder().hunger(3).saturationModifier(0.25f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 6400), 1f).alwaysEdible().build();
+
+    public static final FoodComponent PHANTOM_JUICE = new FoodComponent.Builder().hunger(3).saturationModifier(0.25f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 6400), 1f).alwaysEdible().build();
+
 }

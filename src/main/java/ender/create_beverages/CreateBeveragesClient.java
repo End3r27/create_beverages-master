@@ -62,6 +62,31 @@ public class CreateBeveragesClient implements ClientModInitializer {
 
             BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(),
                     ModFluids.STILL_GOLDEN_MELON_JUICE, ModFluids.FLOWING_GOLDEN_MELON_JUICE);
+
+
+
+
+            FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_BERRY_JUICE, ModFluids.FLOWING_BERRY_JUICE,
+                    new SimpleFluidRenderHandler(
+                            new Identifier("minecraft:block/water_still"),
+                            new Identifier("minecraft:block/water_flow"),
+                            0x8B0000
+                    ));
+
+            BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(),
+                    ModFluids.STILL_BERRY_JUICE, ModFluids.FLOWING_BERRY_JUICE);
+
+
+
+            FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_PHANTOM_JUICE, ModFluids.FLOWING_PHANTOM_JUICE,
+                    new SimpleFluidRenderHandler(
+                            new Identifier("minecraft:block/water_still"),
+                            new Identifier("minecraft:block/water_flow"),
+                            0x00008B
+                    ));
+
+            BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(),
+                    ModFluids.STILL_PHANTOM_JUICE, ModFluids.FLOWING_PHANTOM_JUICE);
             }
     }
 
